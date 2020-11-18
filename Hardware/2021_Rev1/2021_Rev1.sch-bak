@@ -1101,8 +1101,8 @@ $Comp
 L MRDT_Connectors:Molex_SL_02 Conn6
 U 1 1 5FABE786
 P 7000 4500
-F 0 "Conn6" H 7128 4658 60  0000 L CNN
-F 1 "Green_LED" H 7128 4552 60  0000 L CNN
+F 0 "Conn6" H 6900 4350 60  0000 L CNN
+F 1 "Green_LED" H 6850 4450 60  0000 L CNN
 F 2 "" H 7000 4400 60  0001 C CNN
 F 3 "" H 7000 4400 60  0001 C CNN
 	1    7000 4500
@@ -1449,14 +1449,216 @@ Wire Wire Line
 Wire Wire Line
 	5350 4400 5150 4400
 $Comp
-L Connector_Generic_Shielded:Conn_01x18_Shielded J?
-U 1 1 60174413
-P 10300 3750
-F 0 "J?" H 10388 3663 50  0000 L CNN
-F 1 "Conn_01x18_Shielded" H 10388 3572 50  0000 L CNN
-F 2 "" H 10300 3750 50  0001 C CNN
-F 3 "~" H 10300 3750 50  0001 C CNN
-	1    10300 3750
+L Display_Character:RC1602A U?
+U 1 1 5FA70A2A
+P 9650 5500
+F 0 "U?" H 9800 6300 50  0000 C CNN
+F 1 "RC1602A" H 9900 6200 50  0000 C CNN
+F 2 "Display:RC1602A" H 9750 4700 50  0001 C CNN
+F 3 "http://www.raystar-optronics.com/down.php?ProID=18" H 9750 5400 50  0001 C CNN
+	1    9650 5500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8950 5000 9250 5000
+Wire Wire Line
+	8950 5100 9250 5100
+Wire Wire Line
+	8950 5200 9250 5200
+Wire Wire Line
+	8950 5700 9000 5700
+Wire Wire Line
+	9000 5700 9000 6000
+Wire Wire Line
+	9000 6000 9250 6000
+Wire Wire Line
+	8950 5600 9050 5600
+Wire Wire Line
+	9050 5600 9050 5900
+Wire Wire Line
+	9050 5900 9250 5900
+Wire Wire Line
+	8950 5500 9100 5500
+Wire Wire Line
+	9100 5500 9100 5800
+Wire Wire Line
+	9100 5800 9250 5800
+Wire Wire Line
+	8950 5400 9150 5400
+Wire Wire Line
+	9150 5400 9150 5700
+Wire Wire Line
+	9150 5700 9250 5700
+NoConn ~ 9200 5300
+NoConn ~ 9200 5400
+NoConn ~ 9200 5500
+NoConn ~ 9200 5600
+Wire Wire Line
+	9200 5300 9250 5300
+Wire Wire Line
+	9200 5400 9250 5400
+Wire Wire Line
+	9200 5500 9250 5500
+Wire Wire Line
+	9200 5600 9250 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB576D
+P 9650 6300
+F 0 "#PWR?" H 9650 6050 50  0001 C CNN
+F 1 "GND" H 9655 6127 50  0000 C CNN
+F 2 "" H 9650 6300 50  0001 C CNN
+F 3 "" H 9650 6300 50  0001 C CNN
+	1    9650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB5B62
+P 8450 6200
+F 0 "#PWR?" H 8450 5950 50  0001 C CNN
+F 1 "GND" H 8455 6027 50  0000 C CNN
+F 2 "" H 8450 6200 50  0001 C CNN
+F 3 "" H 8450 6200 50  0001 C CNN
+	1    8450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB69D1
+P 7750 5900
+F 0 "#PWR?" H 7750 5650 50  0001 C CNN
+F 1 "GND" H 7755 5727 50  0000 C CNN
+F 2 "" H 7750 5900 50  0001 C CNN
+F 3 "" H 7750 5900 50  0001 C CNN
+	1    7750 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7850 5800
+Wire Wire Line
+	8450 6100 8450 6200
+Wire Wire Line
+	9650 6200 9650 6300
+Wire Wire Line
+	7850 5800 7950 5800
+Wire Wire Line
+	7750 5900 7750 5500
+Wire Wire Line
+	7750 5300 7950 5300
+Wire Wire Line
+	7950 5400 7750 5400
+Connection ~ 7750 5400
+Wire Wire Line
+	7750 5400 7750 5300
+Wire Wire Line
+	7950 5500 7750 5500
+Connection ~ 7750 5500
+Wire Wire Line
+	7750 5500 7750 5400
+Text GLabel 9000 5300 2    50   Output ~ 0
+P3
+Wire Wire Line
+	8950 5300 9000 5300
+Text GLabel 10150 5300 2    50   Output ~ 0
+VO
+$Comp
+L power:+5V #PWR?
+U 1 1 5FC8AC31
+P 10600 5800
+F 0 "#PWR?" H 10600 5650 50  0001 C CNN
+F 1 "+5V" H 10615 5973 50  0000 C CNN
+F 2 "" H 10600 5800 50  0001 C CNN
+F 3 "" H 10600 5800 50  0001 C CNN
+	1    10600 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 5700 2    50   Output ~ 0
+k
+Text GLabel 7550 5000 0    50   Output ~ 0
+SCL
+Text GLabel 7550 5100 0    50   Output ~ 0
+SDA
+$Comp
+L power:+5V #PWR?
+U 1 1 5FC8EC9F
+P 7450 4600
+F 0 "#PWR?" H 7450 4450 50  0001 C CNN
+F 1 "+5V" H 7465 4773 50  0000 C CNN
+F 2 "" H 7450 4600 50  0001 C CNN
+F 3 "" H 7450 4600 50  0001 C CNN
+	1    7450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R 4.7K
+U 1 1 5FCAFDA1
+P 7650 4800
+F 0 "4.7K" V 7650 4700 50  0000 L CNN
+F 1 "R" H 7720 4755 50  0000 L CNN
+F 2 "" V 7580 4800 50  0001 C CNN
+F 3 "~" H 7650 4800 50  0001 C CNN
+	1    7650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R 4.7K
+U 1 1 5FCB0E54
+P 7850 4800
+F 0 "4.7K" V 7850 4700 50  0000 L CNN
+F 1 "R" H 7920 4755 50  0000 L CNN
+F 2 "" V 7780 4800 50  0001 C CNN
+F 3 "~" H 7850 4800 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:PCF8574 U?
+U 1 1 5FA6EB0D
+P 8450 5400
+F 0 "U?" H 8600 6200 50  0000 C CNN
+F 1 "PCF8574" H 8700 6100 50  0000 C CNN
+F 2 "" H 8450 5400 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 8450 5400 50  0001 C CNN
+	1    8450 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5000 7850 5000
+Wire Wire Line
+	7550 5100 7650 5100
+Wire Wire Line
+	7650 4950 7650 5100
+Connection ~ 7650 5100
+Wire Wire Line
+	7650 5100 7950 5100
+Wire Wire Line
+	7850 4950 7850 5000
+Connection ~ 7850 5000
+Wire Wire Line
+	7850 5000 7950 5000
+Wire Wire Line
+	7450 4600 7650 4600
+Wire Wire Line
+	8450 4600 8450 4700
+Wire Wire Line
+	8450 4600 9650 4600
+Wire Wire Line
+	9650 4600 9650 4800
+Connection ~ 8450 4600
+Wire Wire Line
+	7850 4650 7850 4600
+Connection ~ 7850 4600
+Wire Wire Line
+	7850 4600 8450 4600
+Wire Wire Line
+	7650 4650 7650 4600
+Connection ~ 7650 4600
+Wire Wire Line
+	7650 4600 7850 4600
+Wire Wire Line
+	10050 5300 10150 5300
+Wire Wire Line
+	10050 5700 10150 5700
+Wire Wire Line
+	10050 5800 10600 5800
 $EndSCHEMATC
