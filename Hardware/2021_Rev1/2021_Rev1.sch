@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -445,7 +446,7 @@ Wire Wire Line
 Wire Wire Line
 	900  2800 1050 2800
 $Comp
-L Connector:USB_A J1
+L 2021_Rev1-rescue:USB_A-Connector J1
 U 1 1 5FA36A0D
 P 5800 1600
 F 0 "J1" H 5571 1497 50  0000 R CNN
@@ -926,7 +927,7 @@ Wire Wire Line
 	2050 1000 1950 1000
 Wire Wire Line
 	2050 2500 1950 2500
-Text GLabel 5200 3900 0    39   Input ~ 0
+Text GLabel 4970 3900 0    39   Input ~ 0
 ELEV_CTL
 Wire Wire Line
 	5350 3900 5200 3900
@@ -943,7 +944,7 @@ F 3 "" H 5200 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 4000 5200 4000
-Text GLabel 5150 4400 0    39   Input ~ 0
+Text GLabel 4960 4400 0    39   Input ~ 0
 AZI_CTL
 $Comp
 L power:GND #PWR017
@@ -958,8 +959,6 @@ F 3 "" H 5200 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 4500 5200 4500
-Wire Wire Line
-	5350 4400 5150 4400
 $Comp
 L power:+5V #PWR022
 U 1 1 5FB80A44
@@ -1209,7 +1208,7 @@ Connection ~ 1750 4900
 Wire Wire Line
 	1750 4900 2250 4900
 $Comp
-L BC9VPC:BC9VPC BT1
+L 2021_Rev1-rescue:BC9VPC-BC9VPC BT1
 U 1 1 5FE356D0
 P 2800 5800
 F 0 "BT1" V 2754 5930 50  0000 L CNN
@@ -1249,4 +1248,32 @@ Wire Wire Line
 	2800 5500 2800 5300
 Wire Wire Line
 	2800 6100 2800 6300
+$Comp
+L Device:R_Small R?
+U 1 1 5FBB25F6
+P 5100 3900
+F 0 "R?" V 5020 3900 50  0000 C CNN
+F 1 "330" V 5100 3900 50  0000 C CNN
+F 2 "" H 5100 3900 50  0001 C CNN
+F 3 "~" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FBB3DCB
+P 5090 4400
+F 0 "R?" V 5010 4400 50  0000 C CNN
+F 1 "330" V 5090 4400 50  0000 C CNN
+F 2 "" H 5090 4400 50  0001 C CNN
+F 3 "~" H 5090 4400 50  0001 C CNN
+	1    5090 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3900 4970 3900
+Wire Wire Line
+	4990 4400 4960 4400
+Wire Wire Line
+	5350 4400 5190 4400
 $EndSCHEMATC
