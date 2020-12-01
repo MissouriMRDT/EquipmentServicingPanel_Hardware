@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:\Users\Alisa\Documents\GitHub\EquipmentPanel_Hardware\Hardware\2021_Rev1\2021_Rev1.sch)
-    (date "11/30/2020 6:35:09 PM")
-    (tool "Eeschema (5.1.8)-1")
+    (source C:\Users\13142\Documents\GitHub\EquipmentPanel_Hardware\Hardware\2021_Rev1\2021_Rev1.sch)
+    (date "11/29/2020 3:11:39 PM")
+    (tool "Eeschema (5.1.7)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value TM4C129E_Launchpad)
-      (footprint MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM)
+      (footprint MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP)
       (libsource (lib MRDT_Shields) (part TM4C129E_Launchpad) (description "TIVA C Full Headers"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F99EEBA))
@@ -216,7 +216,7 @@
       (value MI0805K601R-10)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
-      (libsource (lib 2021_Rev1-rescue) (part FerriteBead_Small-Device) (description ""))
+      (libsource (lib Device) (part FerriteBead_Small) (description "Ferrite bead, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FCA1204))
     (comp (ref 100nF1)
@@ -230,7 +230,7 @@
       (value C_Polarized_Small_US)
       (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.50mm)
       (datasheet ~)
-      (libsource (lib 2021_Rev1-rescue) (part C_Polarized_Small_US-Device) (description ""))
+      (libsource (lib Device) (part C_Polarized_Small_US) (description "Polarized capacitor, small US symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FD6DD47))
     (comp (ref D4)
@@ -323,26 +323,6 @@
       (pins
         (pin (num N) (name ~) (type passive))
         (pin (num P) (name ~) (type passive))))
-    (libpart (lib 2021_Rev1-rescue) (part C_Polarized_Small_US-Device)
-      (footprints
-        (fp CP_*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C_Polarized_Small_US-Device))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib 2021_Rev1-rescue) (part FerriteBead_Small-Device)
-      (footprints
-        (fp Inductor_*)
-        (fp L_*)
-        (fp *Ferrite*))
-      (fields
-        (field (name Reference) FB)
-        (field (name Value) FerriteBead_Small-Device))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib 2021_Rev1-rescue) (part USB_A-Connector)
       (footprints
         (fp USB*))
@@ -355,6 +335,17 @@
         (pin (num 3) (name D+) (type BiDi))
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name Shield) (type passive))))
+    (libpart (lib Device) (part C_Polarized_Small_US)
+      (description "Polarized capacitor, small US symbol")
+      (docs ~)
+      (footprints
+        (fp CP_*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C_Polarized_Small_US))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib Device) (part C_Small)
       (description "Unpolarized capacitor, small symbol")
       (docs ~)
@@ -363,6 +354,19 @@
       (fields
         (field (name Reference) C)
         (field (name Value) C_Small))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib Device) (part FerriteBead_Small)
+      (description "Ferrite bead, small symbol")
+      (docs ~)
+      (footprints
+        (fp Inductor_*)
+        (fp L_*)
+        (fp *Ferrite*))
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FerriteBead_Small))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -560,17 +564,17 @@
         (pin (num Rese') (name D2_5) (type input)))))
   (libraries
     (library (logical 2021_Rev1-rescue)
-      (uri C:\Users\Alisa\Documents\GitHub\EquipmentPanel_Hardware\Hardware\2021_Rev1/2021_Rev1-rescue.lib))
+      (uri C:\Users\13142\Documents\GitHub\EquipmentPanel_Hardware\Hardware\2021_Rev1/2021_Rev1-rescue.lib))
     (library (logical Device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
+      (uri C:/Users/13142/Downloads/kicad-symbols-master/kicad-symbols-master/Device.lib))
     (library (logical Interface_USB)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Interface_USB.lib"))
+      (uri C:/Users/13142/Downloads/kicad-symbols-master/kicad-symbols-master/Interface_USB.lib))
     (library (logical MRDT_Connectors)
-      (uri C:/Users/Alisa/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib))
+      (uri C:/Users/13142/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib))
     (library (logical MRDT_Devices)
-      (uri C:/Users/Alisa/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.lib))
+      (uri C:/Users/13142/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.lib))
     (library (logical MRDT_Shields)
-      (uri C:/Users/Alisa/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib)))
+      (uri C:/Users/13142/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib)))
   (nets
     (net (code 1) (name "Net-(U1-PadPC7)")
       (node (ref U1) (pin PC7)))
