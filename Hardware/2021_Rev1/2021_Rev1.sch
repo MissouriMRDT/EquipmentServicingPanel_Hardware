@@ -199,36 +199,6 @@ F 3 "~" H 7750 2300 50  0001 C CNN
 	1    7750 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 5F9FB95E
-P 7300 2300
-F 0 "C6" H 7400 2250 50  0000 L CNN
-F 1 "47pF" H 7350 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7300 2300 50  0001 C CNN
-F 3 "~" H 7300 2300 50  0001 C CNN
-	1    7300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5F9FBF43
-P 7100 2300
-F 0 "C5" H 6900 2300 50  0000 L CNN
-F 1 "47pF" H 6900 2200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7100 2300 50  0001 C CNN
-F 3 "~" H 7100 2300 50  0001 C CNN
-	1    7100 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 1800 7100 2200
-Connection ~ 7100 1800
-Wire Wire Line
-	7100 1800 7300 1800
-Wire Wire Line
-	7300 2200 7300 1900
-Connection ~ 7300 1900
 Wire Wire Line
 	7750 2200 7750 2100
 Connection ~ 7750 2100
@@ -243,16 +213,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 2700 8450 2700
 Connection ~ 8450 2700
-Wire Wire Line
-	7750 2700 7300 2700
-Wire Wire Line
-	7300 2700 7300 2400
-Connection ~ 7750 2700
-Wire Wire Line
-	7300 2700 7100 2700
-Wire Wire Line
-	7100 2700 7100 2400
-Connection ~ 7300 2700
 $Comp
 L power:GND #PWR023
 U 1 1 5FA00AC8
@@ -272,27 +232,12 @@ L Device:R R4
 U 1 1 5FA043D5
 P 9650 2500
 F 0 "R4" H 9720 2546 50  0000 L CNN
-F 1 "10k" V 9650 2850 50  0000 L CNN
+F 1 "510" V 9650 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9580 2500 50  0001 C CNN
 F 3 "~" H 9650 2500 50  0001 C CNN
 	1    9650 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 5FA054B2
-P 9650 2100
-F 0 "R3" H 9720 2146 50  0000 L CNN
-F 1 "4.7k" V 9650 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9580 2100 50  0001 C CNN
-F 3 "~" H 9650 2100 50  0001 C CNN
-	1    9650 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 2250 9650 2300
-Wire Wire Line
-	9250 2300 9650 2300
 Connection ~ 9650 2300
 Wire Wire Line
 	9650 2300 9650 2350
@@ -300,19 +245,6 @@ Wire Wire Line
 	8650 2700 9650 2700
 Wire Wire Line
 	9650 2700 9650 2650
-$Comp
-L power:+5V #PWR026
-U 1 1 5FA07F23
-P 9650 1850
-F 0 "#PWR026" H 9650 1700 50  0001 C CNN
-F 1 "+5V" H 9665 2023 50  0000 C CNN
-F 2 "" H 9650 1850 50  0001 C CNN
-F 3 "" H 9650 1850 50  0001 C CNN
-	1    9650 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 1850 9650 1950
 $Comp
 L Device:R R6
 U 1 1 5FA09183
@@ -403,18 +335,12 @@ Connection ~ 9800 1600
 Wire Wire Line
 	9800 1600 9850 1600
 NoConn ~ 9350 1700
-NoConn ~ 9350 1800
 NoConn ~ 9350 2000
-NoConn ~ 9350 2100
 NoConn ~ 9350 2200
 Wire Wire Line
 	9350 1700 9250 1700
 Wire Wire Line
-	9350 1800 9250 1800
-Wire Wire Line
 	9350 2000 9250 2000
-Wire Wire Line
-	9350 2100 9250 2100
 Wire Wire Line
 	9350 2200 9250 2200
 $Comp
@@ -442,21 +368,8 @@ Wire Wire Line
 	900  2700 1050 2700
 Wire Wire Line
 	900  2800 1050 2800
-$Comp
-L 2021_Rev1-rescue:USB_A-Connector J1
-U 1 1 5FA36A0D
-P 6100 1900
-F 0 "J1" H 5871 1797 50  0000 R CNN
-F 1 "USB_A" H 5871 1888 50  0000 R CNN
-F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 6250 1850 50  0001 C CNN
-F 3 " ~" H 6250 1850 50  0001 C CNN
-	1    6100 1900
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	6400 1900 7300 1900
-Wire Wire Line
-	6400 1800 7100 1800
 $Comp
 L power:GND #PWR018
 U 1 1 5FA46EDE
@@ -470,8 +383,6 @@ F 3 "" H 5750 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 1350 6100 1500
-Wire Wire Line
-	6600 2100 6400 2100
 Text Notes 600  2600 0    39   ~ 0
 Serial 6
 $Comp
@@ -1225,20 +1136,8 @@ Connection ~ 5200 3300
 Wire Wire Line
 	5200 3400 5200 3500
 Connection ~ 5200 3400
-$Comp
-L Device:FerriteBead_Small FB1
-U 1 1 5FCA1204
-P 6700 2100
-F 0 "FB1" V 6600 2100 50  0000 C CNN
-F 1 "MI0805K601R-10" V 6800 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6630 2100 50  0001 C CNN
-F 3 "~" H 6700 2100 50  0001 C CNN
-	1    6700 2100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	5750 1350 6100 1350
-NoConn ~ 6000 1500
+	5750 1350 6000 1350
 $Comp
 L power:+5V #PWR0104
 U 1 1 5FD6AEAF
@@ -1309,8 +1208,6 @@ Wire Wire Line
 	8050 750  7600 750 
 Wire Wire Line
 	7600 750  7600 800 
-Wire Wire Line
-	6800 2100 6900 2100
 Wire Wire Line
 	6900 2100 6900 1550
 Wire Wire Line
@@ -1561,4 +1458,35 @@ Wire Wire Line
 	1900 6550 1900 6400
 Wire Wire Line
 	2050 6350 2050 6150
+Wire Wire Line
+	6400 1800 7300 1800
+Wire Wire Line
+	9250 2300 9650 2300
+Wire Wire Line
+	9650 2100 9650 2300
+Wire Wire Line
+	9250 2100 9650 2100
+Wire Wire Line
+	9650 1800 9650 2100
+Wire Wire Line
+	9250 1800 9650 1800
+Connection ~ 9650 2100
+Wire Wire Line
+	6400 2100 6900 2100
+$Comp
+L 2021_Rev1-rescue:USB_A-Connector J1
+U 1 1 5FA36A0D
+P 6100 1900
+F 0 "J1" H 5871 1797 50  0000 R CNN
+F 1 "USB_A" H 5871 1888 50  0000 R CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 6250 1850 50  0001 C CNN
+F 3 " ~" H 6250 1850 50  0001 C CNN
+	1    6100 1900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6000 1500 6000 1350
+Connection ~ 6000 1350
+Wire Wire Line
+	6000 1350 6100 1350
 $EndSCHEMATC
