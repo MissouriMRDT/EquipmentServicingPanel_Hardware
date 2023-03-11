@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Multimedia_IC)(type Legacy)(uri "C:/Users/hocke/Documents/GitHub/Multimedia_Hardware/2022Multimedia Rev1/2022 Multimedia Rev1/Multimedia IC.lib")(options "")(descr ""))
+  (lib (name BC9VPC)(type Legacy)(uri C:/Users/13142/Documents/GitHub/EquipmentPanel_Hardware/Documentation/Libraries/Symbols/BC9VPC.lib)(options "")(descr ""))
+  (lib (name 2021_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/2021_Rev1-rescue.lib)(options "")(descr ""))
 )
