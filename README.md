@@ -1,1 +1,0 @@
-# EquipmentPanel_Hardware
