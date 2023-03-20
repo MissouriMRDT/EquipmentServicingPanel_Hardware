@@ -251,7 +251,7 @@ Text Notes 2150 3550 0    50   ~ 10
 Voltmeter Controls
 Text Notes 9450 3550 0    50   ~ 10
 Joystick Power
-Text Notes 2300 5950 0    50   ~ 10
+Text Notes 1500 5900 0    50   ~ 10
 Power Source
 Text GLabel 1200 2600 0    50   Input ~ 0
 ELEV_PLUS
