@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Multimedia_IC")(type "Legacy")(uri "C:/Users/hocke/Documents/GitHub/Multimedia_Hardware/2022Multimedia Rev1/2022 Multimedia Rev1/Multimedia IC.lib")(options "")(descr ""))
   (lib (name "EquipmentServicingPanel_Hardware_2023_Rev1-rescue")(type "KiCad")(uri "${KIPRJMOD}/EquipmentServicingPanel_Hardware_2023_Rev1-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Hardware_2024-rescue")(type "KiCad")(uri "${KIPRJMOD}/Hardware_2024-rescue.kicad_sym")(options "")(descr ""))
 )
