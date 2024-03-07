@@ -651,13 +651,13 @@
           (name "GP_23" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 20.32 29.21 180) (length 5.08)
-          (name "GP_24" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
         (pin input line (at -5.08 29.21 0) (length 5.08)
           (name "+3V3" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 20.32 29.21 180) (length 5.08)
+          (name "GP_24" (effects (font (size 1.27 1.27))))
+          (number "18" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at -5.08 26.67 0) (length 5.08)
           (name "GP_10" (effects (font (size 1.27 1.27))))
@@ -985,7 +985,7 @@
   (junction (at 35.052 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 04f68d81-a319-4f65-98a3-a79ea5ca1ed5)
   )
-  (junction (at 169.672 44.9724) (diameter 0) (color 0 0 0 0)
+  (junction (at 169.672 44.958) (diameter 0) (color 0 0 0 0)
     (uuid 082f47f5-c549-41b3-b2e5-8fc862f5d84d)
   )
   (junction (at 35.052 99.822) (diameter 0) (color 0 0 0 0)
@@ -1011,9 +1011,6 @@
   )
   (junction (at 63.5 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 3378987f-b7cc-4bd0-b7ed-bf0ca974e4bf)
-  )
-  (junction (at 169.672 44.958) (diameter 0) (color 0 0 0 0)
-    (uuid 3d642c1b-196b-413e-acb4-ba2b8ccbfae6)
   )
   (junction (at 35.052 140.716) (diameter 0) (color 0 0 0 0)
     (uuid 3f012bcb-fe9f-4f58-88e8-aad39ed43057)
@@ -1045,13 +1042,13 @@
   (junction (at 35.052 107.442) (diameter 0) (color 0 0 0 0)
     (uuid 8ebc33b5-7c2d-4f77-b63d-529397af9778)
   )
-  (junction (at 177.165 137.414) (diameter 0) (color 0 0 0 0)
+  (junction (at 177.292 137.414) (diameter 0) (color 0 0 0 0)
     (uuid 929ee277-13e4-434f-ac4e-bf54deaf2e7a)
   )
   (junction (at 39.878 179.324) (diameter 0) (color 0 0 0 0)
     (uuid 969360e3-a210-42ab-97e7-c1078cd2cb8f)
   )
-  (junction (at 169.672 59.1541) (diameter 0) (color 0 0 0 0)
+  (junction (at 169.672 59.182) (diameter 0) (color 0 0 0 0)
     (uuid 9ed73f7d-0023-4d81-b871-31401b5eb80e)
   )
   (junction (at 100.33 43.942) (diameter 0) (color 0 0 0 0)
@@ -1060,7 +1057,7 @@
   (junction (at 114.3 59.182) (diameter 0) (color 0 0 0 0)
     (uuid a4120872-e051-4ebc-a071-dc5498946a2f)
   )
-  (junction (at 144.018 59.1541) (diameter 0) (color 0 0 0 0)
+  (junction (at 144.018 59.182) (diameter 0) (color 0 0 0 0)
     (uuid b795c2e2-8964-4c8f-bbc9-481dbcef49f8)
   )
   (junction (at 63.5 43.18) (diameter 0) (color 0 0 0 0)
@@ -1069,7 +1066,7 @@
   (junction (at 63.5 50.8) (diameter 0) (color 0 0 0 0)
     (uuid d1a57bb6-b054-4689-8ee0-a4ecc51106bd)
   )
-  (junction (at 162.814 59.1541) (diameter 0) (color 0 0 0 0)
+  (junction (at 162.814 59.182) (diameter 0) (color 0 0 0 0)
     (uuid d7106b37-aed4-48b5-bde8-0eb857b09c08)
   )
   (junction (at 94.742 124.714) (diameter 0) (color 0 0 0 0)
@@ -1088,6 +1085,15 @@
     (uuid ff385af5-be4d-4ba1-b51c-6bc329a971f3)
   )
 
+  (no_connect (at 160.782 124.46) (uuid 04cb639b-6d34-42ba-883b-38ab84dbe018))
+  (no_connect (at 160.782 127) (uuid 0a75ee3f-611c-4bee-b6dc-0a517a2a2cb7))
+  (no_connect (at 160.782 114.3) (uuid 46c4e510-c3cd-43b9-b65f-d18789658c9b))
+  (no_connect (at 160.782 119.38) (uuid 6ccd2c89-a582-4827-834e-b75b5bb90901))
+  (no_connect (at 160.782 116.84) (uuid 9931274b-ee4b-4947-bfc4-661ffe895075))
+  (no_connect (at 160.782 121.92) (uuid a5398164-1283-4e81-84ea-e738dc6a4f70))
+  (no_connect (at 160.782 129.54) (uuid ce0bc354-8483-4296-b688-79ab6c82a708))
+  (no_connect (at 162.814 48.768) (uuid ce122280-a722-419b-a62a-7ce6ed6018cc))
+
   (wire (pts (xy 215.138 49.53) (xy 215.138 52.07))
     (stroke (width 0) (type default))
     (uuid 00089e30-f0d3-4e98-9ccb-f455f70dc813)
@@ -1101,7 +1107,7 @@
     (uuid 03ba3e01-321e-4887-b3c7-02f5c2903a52)
   )
 
-  (wire (pts (xy 130.048 59.1541) (xy 144.018 59.1541))
+  (wire (pts (xy 130.048 59.182) (xy 144.018 59.182))
     (stroke (width 0) (type default))
     (uuid 03ca8596-c052-4129-a0c0-c6d86dda25b3)
   )
@@ -1109,7 +1115,7 @@
     (stroke (width 0) (type default))
     (uuid 04a5f07b-f822-4fb8-84d9-4c9b7a35c78d)
   )
-  (wire (pts (xy 185.166 44.9724) (xy 169.672 44.9724))
+  (wire (pts (xy 185.166 44.958) (xy 169.672 44.958))
     (stroke (width 0) (type default))
     (uuid 0510ab25-fa6a-4ffe-ac07-57787f8a95ef)
   )
@@ -1141,11 +1147,11 @@
     (stroke (width 0) (type default))
     (uuid 0e8b87bc-2455-46b2-ae3d-912b120d5396)
   )
-  (wire (pts (xy 29.845 50.8) (xy 35.306 50.8))
+  (wire (pts (xy 29.972 50.8) (xy 35.306 50.8))
     (stroke (width 0) (type default))
     (uuid 0efe0163-66de-4da9-93ab-b7ff3b3a4ad7)
   )
-  (wire (pts (xy 173.482 137.414) (xy 177.165 137.414))
+  (wire (pts (xy 173.482 137.414) (xy 177.292 137.414))
     (stroke (width 0) (type default))
     (uuid 1021c984-3ce1-491d-a24b-82dd8053aaf9)
   )
@@ -1258,7 +1264,7 @@
     (stroke (width 0) (type default))
     (uuid 409b1371-bdd4-41bb-8aff-756eda7da5d9)
   )
-  (wire (pts (xy 152.527 109.22) (xy 152.527 106.807))
+  (wire (pts (xy 152.654 109.22) (xy 152.654 106.934))
     (stroke (width 0) (type default))
     (uuid 439b041b-27c4-45e1-a402-352ae2a2a3a2)
   )
@@ -1299,7 +1305,7 @@
     (stroke (width 0) (type default))
     (uuid 50853387-17a2-47b5-b8c9-4d50b0dbae23)
   )
-  (wire (pts (xy 149.479 111.76) (xy 160.782 111.76))
+  (wire (pts (xy 149.606 111.76) (xy 160.782 111.76))
     (stroke (width 0) (type default))
     (uuid 50fd1214-562a-48f0-8663-87d3271c7324)
   )
@@ -1327,13 +1333,9 @@
     (stroke (width 0) (type default))
     (uuid 58d2c9af-be1d-4d97-a8c3-c602e8e7dd90)
   )
-  (wire (pts (xy 60.706 45.72) (xy 65.151 45.72))
+  (wire (pts (xy 60.706 45.72) (xy 65.278 45.72))
     (stroke (width 0) (type default))
     (uuid 58eda81e-0a0b-450f-83af-8ccfe7b409cf)
-  )
-  (wire (pts (xy 169.672 44.958) (xy 169.672 44.9724))
-    (stroke (width 0) (type default))
-    (uuid 5d2e2de3-2c1d-417d-b0eb-a4fb55bd2709)
   )
   (wire (pts (xy 33.274 151.13) (xy 36.83 151.13))
     (stroke (width 0) (type default))
@@ -1368,11 +1370,11 @@
     (stroke (width 0) (type default))
     (uuid 64d1ddd8-3d51-4349-b14e-4a920c8d3cb6)
   )
-  (wire (pts (xy 97.028 137.668) (xy 92.9639 137.668))
+  (wire (pts (xy 97.028 137.668) (xy 92.964 137.668))
     (stroke (width 0) (type default))
     (uuid 64effd09-d1a8-4bd1-adb0-42bb7cedde8d)
   )
-  (wire (pts (xy 169.672 53.594) (xy 169.672 59.1541))
+  (wire (pts (xy 169.672 53.594) (xy 169.672 59.182))
     (stroke (width 0) (type default))
     (uuid 6587aec2-2759-42fe-a793-8c5d801b5eac)
   )
@@ -1424,7 +1426,7 @@
     (stroke (width 0) (type default))
     (uuid 72a4e3ac-dd71-4f55-8eea-51e48ff72ecf)
   )
-  (wire (pts (xy 162.814 52.578) (xy 162.814 59.1541))
+  (wire (pts (xy 162.814 52.578) (xy 162.814 59.182))
     (stroke (width 0) (type default))
     (uuid 743442f2-6159-42c6-8dfe-508753ecb4f6)
   )
@@ -1445,15 +1447,15 @@
     (stroke (width 0) (type default))
     (uuid 7bee8a86-c559-4281-8d15-5b533ae1204b)
   )
-  (wire (pts (xy 65.151 55.88) (xy 60.706 55.88))
+  (wire (pts (xy 65.278 55.88) (xy 60.706 55.88))
     (stroke (width 0) (type default))
     (uuid 81c5d484-7a8b-4bf2-9ebb-0ef92eeea93c)
   )
-  (wire (pts (xy 177.165 137.414) (xy 177.165 139.827))
+  (wire (pts (xy 177.292 137.414) (xy 177.292 139.954))
     (stroke (width 0) (type default))
     (uuid 822b6122-6690-462a-be06-8a822451a9a3)
   )
-  (wire (pts (xy 181.102 137.414) (xy 177.165 137.414))
+  (wire (pts (xy 181.102 137.414) (xy 177.292 137.414))
     (stroke (width 0) (type default))
     (uuid 826a6e22-ab72-473b-9f03-e89e8c19e0cf)
   )
@@ -1473,15 +1475,15 @@
     (stroke (width 0) (type default))
     (uuid 85a06b44-1ea7-4c1d-8441-d0201ff061a4)
   )
-  (wire (pts (xy 169.672 59.1541) (xy 162.814 59.1541))
+  (wire (pts (xy 169.672 59.182) (xy 162.814 59.182))
     (stroke (width 0) (type default))
     (uuid 85b5af5e-a929-420a-8f8e-70d2b4dac100)
   )
-  (wire (pts (xy 60.706 38.1) (xy 65.151 38.1))
+  (wire (pts (xy 60.706 38.1) (xy 65.278 38.1))
     (stroke (width 0) (type default))
     (uuid 887e71eb-cc7e-4c8b-a099-0361ec978201)
   )
-  (wire (pts (xy 144.018 59.1541) (xy 144.018 62.484))
+  (wire (pts (xy 144.018 59.182) (xy 144.018 62.484))
     (stroke (width 0) (type default))
     (uuid 8a629e8f-fd3b-423e-9888-e76bd2d829be)
   )
@@ -1522,17 +1524,9 @@
     (stroke (width 0) (type default))
     (uuid 8ff33be0-3fab-49af-bb58-2040f66893b7)
   )
-  (wire (pts (xy 92.9639 137.668) (xy 92.9639 137.6997))
-    (stroke (width 0) (type default))
-    (uuid 900698a1-3350-45cc-883c-c2c348092537)
-  )
   (wire (pts (xy 35.052 115.57) (xy 35.052 124.206))
     (stroke (width 0) (type default))
     (uuid 904b8ee8-5dbf-477d-9bad-0f78b6629076)
-  )
-  (wire (pts (xy 169.672 59.182) (xy 169.672 59.1541))
-    (stroke (width 0) (type default))
-    (uuid 91e7bea1-afa5-4817-bd6a-14c0deccab0e)
   )
   (wire (pts (xy 193.802 124.46) (xy 191.262 124.46))
     (stroke (width 0) (type default))
@@ -1546,7 +1540,7 @@
     (stroke (width 0) (type default))
     (uuid 946e70f1-728a-443d-8e13-93e71fd71b7e)
   )
-  (wire (pts (xy 162.814 59.1541) (xy 144.018 59.1541))
+  (wire (pts (xy 162.814 59.182) (xy 144.018 59.182))
     (stroke (width 0) (type default))
     (uuid 9601b743-87b0-4d6e-ace1-7c4c0d3c066d)
   )
@@ -1554,7 +1548,7 @@
     (stroke (width 0) (type default))
     (uuid 96ce12f5-2749-47a7-b422-4e4456e5fe2d)
   )
-  (wire (pts (xy 60.706 58.42) (xy 65.151 58.42))
+  (wire (pts (xy 60.706 58.42) (xy 65.278 58.42))
     (stroke (width 0) (type default))
     (uuid 96ebdedc-3404-4135-955e-ccb0330a4658)
   )
@@ -1562,7 +1556,7 @@
     (stroke (width 0) (type default))
     (uuid 980719ae-c15f-4e0d-a95e-8b120d68acb5)
   )
-  (wire (pts (xy 144.018 52.578) (xy 144.018 59.1541))
+  (wire (pts (xy 144.018 52.578) (xy 144.018 59.182))
     (stroke (width 0) (type default))
     (uuid 98ffae99-bd37-441e-8017-4c9c0443405e)
   )
@@ -1666,7 +1660,7 @@
     (stroke (width 0) (type default))
     (uuid b028ee98-f2f8-4f8f-8d9f-8ae106a3e473)
   )
-  (wire (pts (xy 60.706 53.34) (xy 65.151 53.34))
+  (wire (pts (xy 60.706 53.34) (xy 65.278 53.34))
     (stroke (width 0) (type default))
     (uuid b0513934-54de-4b1b-9011-077c71ccaf9e)
   )
@@ -1674,7 +1668,7 @@
     (stroke (width 0) (type default))
     (uuid b461e8f4-20c4-48b5-bb70-458251ff37ca)
   )
-  (polyline (pts (xy 124.46 11.1429) (xy 124.46 84.328))
+  (polyline (pts (xy 124.46 11.176) (xy 124.46 84.328))
     (stroke (width 0) (type dash))
     (uuid b4659fca-c904-4a20-87f7-4c2f60b3c093)
   )
@@ -1687,7 +1681,7 @@
     (stroke (width 0) (type default))
     (uuid b820e4a5-c503-4cb7-9045-2cb026aee165)
   )
-  (wire (pts (xy 152.4 114.3) (xy 152.4 115.951))
+  (wire (pts (xy 152.4 114.3) (xy 152.4 116.078))
     (stroke (width 0) (type default))
     (uuid bc5c5e9f-0219-4ac6-a5b8-9ecd4bad0233)
   )
@@ -1708,7 +1702,7 @@
     (stroke (width 0) (type default))
     (uuid c28d75bc-7c06-4a0e-951e-617b13913909)
   )
-  (wire (pts (xy 185.166 46.99) (xy 185.166 44.9724))
+  (wire (pts (xy 185.166 46.99) (xy 185.166 44.958))
     (stroke (width 0) (type default))
     (uuid c373cbc1-fdaa-4eb9-a53b-44d31023da5d)
   )
@@ -1777,7 +1771,7 @@
     (stroke (width 0) (type default))
     (uuid d219e6dc-cf96-4d50-a921-109a18ca3102)
   )
-  (wire (pts (xy 60.706 60.96) (xy 65.151 60.96))
+  (wire (pts (xy 60.706 60.96) (xy 65.278 60.96))
     (stroke (width 0) (type default))
     (uuid d3952df6-ebd6-468b-a908-145347f7751e)
   )
@@ -1789,11 +1783,11 @@
     (stroke (width 0) (type default))
     (uuid d6104317-21c4-4048-9bc3-ceee8ca5f6d0)
   )
-  (wire (pts (xy 60.706 35.56) (xy 65.151 35.56))
+  (wire (pts (xy 60.706 35.56) (xy 65.278 35.56))
     (stroke (width 0) (type default))
     (uuid d8beeca4-529b-4bc2-9bd4-a6f20c04ed93)
   )
-  (wire (pts (xy 149.479 109.22) (xy 152.527 109.22))
+  (wire (pts (xy 149.606 109.22) (xy 152.654 109.22))
     (stroke (width 0) (type default))
     (uuid daa3b9da-0c6a-4791-ac39-a67d1ad2a04e)
   )
@@ -1801,7 +1795,7 @@
     (stroke (width 0) (type default))
     (uuid daa5ab06-0c50-4aa3-84f5-af0472baece8)
   )
-  (wire (pts (xy 60.706 40.64) (xy 65.151 40.64))
+  (wire (pts (xy 60.706 40.64) (xy 65.278 40.64))
     (stroke (width 0) (type default))
     (uuid dafd301b-43eb-4fdc-b460-c92325f6d7aa)
   )
@@ -1809,11 +1803,11 @@
     (stroke (width 0) (type default))
     (uuid dc13c56e-6ed3-4711-a8a4-995ca15951ec)
   )
-  (wire (pts (xy 130.048 54.102) (xy 130.048 59.1541))
+  (wire (pts (xy 130.048 54.102) (xy 130.048 59.182))
     (stroke (width 0) (type default))
     (uuid dc197e22-e09a-4309-8641-d6794cd086b1)
   )
-  (wire (pts (xy 149.479 114.3) (xy 152.4 114.3))
+  (wire (pts (xy 149.606 114.3) (xy 152.4 114.3))
     (stroke (width 0) (type default))
     (uuid dcab3746-a75d-465b-8e8b-180bef7ea27b)
   )
@@ -1849,7 +1843,7 @@
     (stroke (width 0) (type default))
     (uuid ec70dd9e-7c5c-4d71-9ffd-e3b4a74164e7)
   )
-  (wire (pts (xy 169.672 44.9724) (xy 169.672 45.974))
+  (wire (pts (xy 169.672 44.958) (xy 169.672 45.974))
     (stroke (width 0) (type default))
     (uuid ec9b1db8-5fd4-470c-b9ec-9440c8455c1b)
   )
@@ -1865,7 +1859,7 @@
     (stroke (width 0) (type default))
     (uuid f35be418-f4b1-450b-8f1b-6a45d810d5bb)
   )
-  (wire (pts (xy 60.706 71.12) (xy 65.151 71.12))
+  (wire (pts (xy 60.706 71.12) (xy 65.278 71.12))
     (stroke (width 0) (type default))
     (uuid f58f3f8d-7189-4cab-bc3b-0b0519f3f7f6)
   )
@@ -1873,7 +1867,7 @@
     (stroke (width 0) (type default))
     (uuid f7200f99-250e-4be7-a519-b5792059a44b)
   )
-  (wire (pts (xy 65.151 48.26) (xy 60.706 48.26))
+  (wire (pts (xy 65.278 48.26) (xy 60.706 48.26))
     (stroke (width 0) (type default))
     (uuid f7815e7f-ec66-4b64-a1c8-0e0de958bec5)
   )
@@ -1979,10 +1973,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED5" (shape output) (at 65.151 48.26 0) (fields_autoplaced)
+  (global_label "LED5" (shape output) (at 65.278 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1553a543-1a91-4a74-a236-7958b45f8a03)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 48.26 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2056,10 +2050,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED2" (shape output) (at 65.151 38.1 0) (fields_autoplaced)
+  (global_label "LED2" (shape output) (at 65.278 38.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 465e6b02-fdd3-4c3c-979b-ccd6d36addcc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 38.1 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2077,17 +2071,17 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "DIN" (shape input) (at 29.845 50.8 180) (fields_autoplaced)
+  (global_label "DIN" (shape input) (at 29.972 50.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5ba8ca07-f5f4-4852-90c1-d83e361070f1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 24.3087 50.8 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 24.4357 50.8 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "CS" (shape input) (at 65.151 55.88 0) (fields_autoplaced)
+  (global_label "CS" (shape input) (at 65.278 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5c6db316-4c26-44bf-9f37-78f00b461f0b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 69.9615 55.88 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 70.0885 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2098,10 +2092,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LED3" (shape output) (at 65.151 40.64 0) (fields_autoplaced)
+  (global_label "LED3" (shape output) (at 65.278 40.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 61ec619d-8875-49af-8741-42df86353e0c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 40.64 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2126,17 +2120,17 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED6" (shape output) (at 65.151 53.34 0) (fields_autoplaced)
+  (global_label "LED6" (shape output) (at 65.278 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 78dbc91f-fa3f-46e7-a5b3-e6f6a6341546)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 53.34 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LED7" (shape output) (at 65.151 58.42 0) (fields_autoplaced)
+  (global_label "LED7" (shape output) (at 65.278 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7e6d353c-2af2-4893-a37f-407d554acd6c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 58.42 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2168,10 +2162,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED4" (shape input) (at 92.9639 137.6997 180) (fields_autoplaced)
+  (global_label "LED4" (shape input) (at 92.964 137.668 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 952e5465-c3db-4f3f-aee9-3344c3319b62)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 85.9763 137.6997 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 85.9764 137.668 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2210,10 +2204,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED4" (shape output) (at 65.151 45.72 0) (fields_autoplaced)
+  (global_label "LED4" (shape output) (at 65.278 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a976248c-4b06-48f5-8226-227e9104f2f1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 45.72 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2238,10 +2232,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED9" (shape output) (at 65.151 71.12 0) (fields_autoplaced)
+  (global_label "LED9" (shape output) (at 65.278 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ba92dcc1-42ad-4120-900c-cb2d38aede74)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 71.12 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2252,10 +2246,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED1" (shape output) (at 65.151 35.56 0) (fields_autoplaced)
+  (global_label "LED1" (shape output) (at 65.278 35.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c339d191-e221-4af5-8b04-c61f37034ad7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 35.56 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2378,10 +2372,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED8" (shape output) (at 65.151 60.96 0) (fields_autoplaced)
+  (global_label "LED8" (shape output) (at 65.278 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f36ca244-04a9-4451-88e6-b63ff5320114)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.1386 60.96 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 72.2656 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2404,7 +2398,7 @@
     (pin "1" (uuid e752ef3e-f192-4c2e-8a98-8d0ab4c04ba1))
     (pin "2" (uuid 564587d4-c3d2-45d6-b171-89192f324180))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R1") (unit 1)
         )
@@ -2430,7 +2424,7 @@
     (pin "1" (uuid 1557ff2b-e64a-49a1-89eb-793e6deffbb1))
     (pin "2" (uuid 1048c92d-9844-40d1-93cc-19ea397e6ced))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R2") (unit 1)
         )
@@ -2456,7 +2450,7 @@
     (pin "1" (uuid 69287a79-aa72-451e-a18e-e218a5df981b))
     (pin "2" (uuid 00e77210-9ef2-4f0a-a6d5-db2d37f85ac7))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R3") (unit 1)
         )
@@ -2482,7 +2476,7 @@
     (pin "1" (uuid 8dcab3c7-23e4-4bd3-9435-ae7c3bd990fa))
     (pin "2" (uuid 2d808e89-449f-45b1-a099-4756e30c02fb))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R4") (unit 1)
         )
@@ -2508,7 +2502,7 @@
     (pin "1" (uuid ba6c84f9-84b4-4082-b5e9-362fba578cd3))
     (pin "2" (uuid e64796f2-59f5-4ab8-a9ad-4b44fb40a4db))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D1") (unit 1)
         )
@@ -2534,7 +2528,7 @@
     (pin "1" (uuid cdfa2bb7-82e4-412f-8b83-fbc90bff62a0))
     (pin "2" (uuid cce07b3b-029b-45f0-8525-56b43f9db5e8))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D2") (unit 1)
         )
@@ -2560,7 +2554,7 @@
     (pin "1" (uuid 1ae360b7-bfc6-4545-9a31-58ac82718ee6))
     (pin "2" (uuid f144c980-fed7-4965-8418-54358435f740))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D3") (unit 1)
         )
@@ -2586,7 +2580,7 @@
     (pin "1" (uuid 7fb0c223-bccb-4bb5-9aaf-b73d2f28ce1e))
     (pin "2" (uuid d63c3515-75d0-4d19-8ad9-fb5b85afca44))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D4") (unit 1)
         )
@@ -2611,7 +2605,7 @@
     )
     (pin "1" (uuid 69121492-209c-40d5-b380-df9fb7091721))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR028") (unit 1)
         )
@@ -2636,7 +2630,7 @@
     )
     (pin "1" (uuid 841cdcdd-e152-4fba-a79a-ff3c8d285420))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR029") (unit 1)
         )
@@ -2661,7 +2655,7 @@
     )
     (pin "1" (uuid 257268dc-598d-49af-af68-ccdaa1104171))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR030") (unit 1)
         )
@@ -2686,7 +2680,7 @@
     )
     (pin "1" (uuid 424af783-c59b-48d8-b594-a82d6a95ce74))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR037") (unit 1)
         )
@@ -2703,7 +2697,7 @@
     (property "Value" "Molex_SL_02" (at 238.4552 149.0472 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 235.204 152.908 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 235.204 152.908 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 235.204 152.908 0)
@@ -2712,7 +2706,7 @@
     (pin "1" (uuid 6fa89245-56b4-4674-9fa1-6c1d5e2c6129))
     (pin "2" (uuid 67b65955-02fd-4a29-baf0-070905366ef3))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn2") (unit 1)
         )
@@ -2729,7 +2723,7 @@
     (property "Value" "Molex_SL_02" (at 269.1892 148.7932 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 265.938 152.654 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 265.938 152.654 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 265.938 152.654 0)
@@ -2738,7 +2732,7 @@
     (pin "1" (uuid 05b1dab3-5d4e-4cd4-a3e8-3579122b2717))
     (pin "2" (uuid a6a5139d-62d7-44e3-b6b2-23c7724e8bed))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn3") (unit 1)
         )
@@ -2763,7 +2757,7 @@
     )
     (pin "1" (uuid 5e6cfc9c-c355-4d35-bc3e-502dde74157f))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR04") (unit 1)
         )
@@ -2788,7 +2782,7 @@
     )
     (pin "1" (uuid 47167736-1765-4c57-8c7b-f15e0edecc8f))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR012") (unit 1)
         )
@@ -2813,7 +2807,7 @@
     )
     (pin "1" (uuid 2572d8e8-f47a-497d-8089-1808166e0db5))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR03") (unit 1)
         )
@@ -2836,13 +2830,13 @@
     (property "Datasheet" "" (at 82.55 75.692 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 1c97918f-a7cd-4d3c-b9e2-dc3e295417bd))
+    (pin "1" (uuid 1c97918f-a7cd-4d3c-b9e2-dc3e295417be))
     (pin "2" (uuid 218f1158-3b65-4a36-99d5-34fdf1101caa))
     (pin "3" (uuid ec5c58e7-dc59-490f-9f6a-d122364c4d8e))
     (pin "4" (uuid 2ca3e036-0dd9-44c5-ab9b-9e9867bfafe0))
-    (pin "1" (uuid 1c97918f-a7cd-4d3c-b9e2-dc3e295417bd))
+    (pin "1" (uuid 1c97918f-a7cd-4d3c-b9e2-dc3e295417be))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn1") (unit 1)
         )
@@ -2865,13 +2859,13 @@
     (property "Datasheet" "" (at 82.55 60.452 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid d48de8c4-8edf-49e0-8d01-5d4f42efad87))
+    (pin "1" (uuid d48de8c4-8edf-49e0-8d01-5d4f42efad88))
     (pin "2" (uuid 5ee011de-bc12-43ae-82b0-77c7afa475c1))
     (pin "3" (uuid 5f3ef7ee-f693-406c-97ea-b3b55d2aca28))
     (pin "4" (uuid 6a35525a-b796-45bc-9911-b63f9187d10c))
-    (pin "1" (uuid d48de8c4-8edf-49e0-8d01-5d4f42efad87))
+    (pin "1" (uuid d48de8c4-8edf-49e0-8d01-5d4f42efad88))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn1") (unit 4)
         )
@@ -2897,7 +2891,7 @@
     (pin "1" (uuid 377bfe3f-20f5-40cb-b375-62e86813325f))
     (pin "2" (uuid f8bbbf50-0610-4d41-8825-98a4c347bef6))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R5") (unit 1)
         )
@@ -2923,7 +2917,7 @@
     (pin "1" (uuid 30761ce9-f1ae-4062-b915-14fddbe58903))
     (pin "2" (uuid eac6da4b-d000-4fda-b1c6-d353a98ed0f6))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R6") (unit 1)
         )
@@ -2949,7 +2943,7 @@
     (pin "1" (uuid c18dc9e8-a2c9-4b6c-a962-0dbc6a6d9000))
     (pin "2" (uuid 5d560b6e-2ace-4fe8-9959-300f20ead086))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R7") (unit 1)
         )
@@ -2974,7 +2968,7 @@
     )
     (pin "1" (uuid 20d84f0b-102a-4756-aa97-270ec7babfe7))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR042") (unit 1)
         )
@@ -2999,7 +2993,7 @@
     )
     (pin "1" (uuid 66e0c3ca-b09f-43bb-b5d3-b7d85d85aec0))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR040") (unit 1)
         )
@@ -3024,7 +3018,7 @@
     )
     (pin "1" (uuid acba5371-2249-4b94-a78b-358d706f3c55))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR038") (unit 1)
         )
@@ -3049,7 +3043,7 @@
     )
     (pin "1" (uuid fc7cf843-23b6-4f59-98d2-3bdcd0a35c33))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR05") (unit 1)
         )
@@ -3074,7 +3068,7 @@
     )
     (pin "1" (uuid c774afce-bac8-4b9e-ba29-df09f8d8383d))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR019") (unit 1)
         )
@@ -3100,7 +3094,7 @@
     (pin "1" (uuid 135d775e-3558-4170-9d60-a15191ba87d1))
     (pin "2" (uuid f35c15b8-4d5e-411f-a0e4-a70a52f27e34))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D5") (unit 1)
         )
@@ -3126,7 +3120,7 @@
     (pin "1" (uuid 04ff3057-ae67-40a0-bf36-dda1eb09465d))
     (pin "2" (uuid c2d5bb94-9fc3-4846-8665-0377f8c5dca9))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D6") (unit 1)
         )
@@ -3152,7 +3146,7 @@
     (pin "1" (uuid 2f4219d6-64b0-4731-b46a-8c03f9902727))
     (pin "2" (uuid e9baaefe-fa23-49d4-b10f-6b222a1e8dba))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D7") (unit 1)
         )
@@ -3177,7 +3171,7 @@
     )
     (pin "1" (uuid 877a8881-c91b-425a-8a49-4b9607f212dc))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR039") (unit 1)
         )
@@ -3202,7 +3196,7 @@
     )
     (pin "1" (uuid d558d2c4-4179-4be3-a66e-73970847f46b))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR041") (unit 1)
         )
@@ -3227,7 +3221,7 @@
     )
     (pin "1" (uuid 3b29e139-ab70-47a7-a7c0-09e484b63e34))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR043") (unit 1)
         )
@@ -3244,7 +3238,7 @@
     (property "Value" "Molex_SL_02" (at 237.49 109.474 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 236.22 109.474 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 236.22 109.474 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 236.22 109.474 0)
@@ -3253,7 +3247,7 @@
     (pin "1" (uuid 16a97637-9f58-494d-b5e7-ed429095c970))
     (pin "2" (uuid f16cc77e-82c6-42f2-b060-d9050080b052))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn14") (unit 1)
         )
@@ -3270,7 +3264,7 @@
     (property "Value" "Molex_SL_02" (at 268.6812 105.6132 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 265.43 109.474 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 265.43 109.474 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 265.43 109.474 0)
@@ -3279,7 +3273,7 @@
     (pin "1" (uuid 22f6dae7-09e3-4560-acf9-8899a725766b))
     (pin "2" (uuid 65e225d2-46f2-48f0-bd04-96b9f11d2d13))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn16") (unit 1)
         )
@@ -3305,7 +3299,7 @@
     (pin "1" (uuid a07a6f4b-8182-4568-a4a3-13d1411b58d6))
     (pin "2" (uuid 70f5bf22-542a-4dca-aed5-7aefa71d3657))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn17") (unit 1)
         )
@@ -3331,7 +3325,7 @@
     (pin "1" (uuid 0ad6aec5-2604-4c92-9e0b-9c3a4fc5a2ae))
     (pin "2" (uuid cc924228-de69-4ab0-99de-6929cf677257))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn15") (unit 1)
         )
@@ -3357,7 +3351,7 @@
     (pin "1" (uuid d1570478-e4e4-4073-9709-aaebd999b12e))
     (pin "2" (uuid 855f1b6d-7ead-4cb2-ae32-89f4f01f29ca))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn8") (unit 1)
         )
@@ -3382,7 +3376,7 @@
     )
     (pin "1" (uuid dbb1777b-0749-4765-83f3-86afe645860e))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR06") (unit 1)
         )
@@ -3407,7 +3401,7 @@
     )
     (pin "1" (uuid e5b8ef80-7388-4ae8-8b11-4dfddf838eb2))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR051") (unit 1)
         )
@@ -3432,7 +3426,7 @@
     )
     (pin "1" (uuid 463c6977-cc22-4cbe-b733-e7a8b7fb02df))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR046") (unit 1)
         )
@@ -3457,7 +3451,7 @@
     )
     (pin "1" (uuid 2b850375-f76c-4cb6-a2de-078daedb5fed))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR045") (unit 1)
         )
@@ -3482,7 +3476,7 @@
     )
     (pin "1" (uuid 5f6f8eda-cd84-4608-ab47-86655379ddca))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR052") (unit 1)
         )
@@ -3490,24 +3484,24 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Drill_Holes:Via") (at 138.303 180.975 0) (unit 1)
+  (symbol (lib_id "MRDT_Drill_Holes:Via") (at 138.43 181.102 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000642f86ac)
-    (property "Reference" "V1" (at 144.0942 179.5018 0)
+    (property "Reference" "V1" (at 144.2212 179.6288 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "Via" (at 144.0942 182.1942 0)
+    (property "Value" "Via" (at 144.2212 182.3212 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 138.303 180.975 0)
+    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 138.43 181.102 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 138.303 180.975 0)
+    (property "Datasheet" "" (at 138.43 181.102 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid 4f8fd612-fe1d-4fa0-9c51-8338e4f3c190))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "V1") (unit 1)
         )
@@ -3532,7 +3526,7 @@
     )
     (pin "1" (uuid ec8780aa-9a7e-499f-ad3f-27c6f74875ec))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "V2") (unit 1)
         )
@@ -3562,9 +3556,9 @@
     (pin "13" (uuid 391b93cd-14c6-42b9-9fa4-f9f2da075d60))
     (pin "14" (uuid c348aeb3-0871-417b-948f-b0365cb17193))
     (pin "15" (uuid 5f7eb4b0-38ad-4660-9a36-40c04575fdaf))
-    (pin "16" (uuid 619c6d3d-719c-42ea-a4b1-4eecb1dfc2da))
-    (pin "16" (uuid 619c6d3d-719c-42ea-a4b1-4eecb1dfc2da))
+    (pin "16" (uuid 619c6d3d-719c-42ea-a4b1-4eecb1dfc2db))
     (pin "17" (uuid a1ac471b-db6d-4fbf-938e-2f130816089c))
+    (pin "18" (uuid 0c88e183-6374-4e95-940e-81602c0104d7))
     (pin "19" (uuid 2c699868-e022-4202-b5a1-c0b32861a05b))
     (pin "2" (uuid f81030b0-dcfd-4aed-b2f2-0778ce403dfa))
     (pin "20" (uuid 03a0e807-7768-47e2-8f96-2448f40776e9))
@@ -3596,7 +3590,7 @@
     (pin "8" (uuid 726da0fa-d497-4f3b-a888-79fdfbf39986))
     (pin "9" (uuid c2a7db56-b346-4824-95f2-70134ecd46a2))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "U1") (unit 1)
         )
@@ -3604,24 +3598,24 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Drill_Holes:Via") (at 138.557 189.103 0) (unit 1)
+  (symbol (lib_id "MRDT_Drill_Holes:Via") (at 138.684 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000064328791)
-    (property "Reference" "V3" (at 144.3482 187.6298 0)
+    (property "Reference" "V3" (at 144.4752 187.7568 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "Via" (at 144.3482 190.3222 0)
+    (property "Value" "Via" (at 144.4752 190.4492 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 138.557 189.103 0)
+    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 138.684 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 138.557 189.103 0)
+    (property "Datasheet" "" (at 138.684 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid c70e6cfe-6042-49d9-af91-0b351cca6eff))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "V3") (unit 1)
         )
@@ -3646,7 +3640,7 @@
     )
     (pin "1" (uuid 3d517ad0-d155-44e6-80fe-5d34deb50348))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "V4") (unit 1)
         )
@@ -3672,7 +3666,7 @@
     (pin "1" (uuid 4a4a27e8-ee19-436a-bbe6-05742d818355))
     (pin "2" (uuid cb54d93e-b901-47fd-8a97-4966b1dfe281))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "C3") (unit 1)
         )
@@ -3698,7 +3692,7 @@
     (pin "1" (uuid 3dbbc0e8-1a79-4eac-b4e8-d7ea3c9f45d2))
     (pin "2" (uuid f0f2d972-d2d8-4ad7-b0b3-62b09d10fca8))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "C4") (unit 1)
         )
@@ -3715,7 +3709,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 168.148 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 171.958 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 171.958 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 171.958 0)
@@ -3724,7 +3718,7 @@
     (pin "1" (uuid a10a5bf3-b865-4a41-aa9b-94dd22ed103d))
     (pin "2" (uuid e5e62883-f880-413d-ac32-4671f33511da))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn23") (unit 1)
         )
@@ -3741,7 +3735,7 @@
     (property "Value" "Molex_SL_02" (at 50.038 181.864 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 46.228 185.674 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 46.228 185.674 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 46.228 185.674 0)
@@ -3750,7 +3744,7 @@
     (pin "1" (uuid 2d82188f-763e-44d6-be97-2ab39b659052))
     (pin "2" (uuid 52dea8d9-437d-4dd6-8a8a-70babeb147f6))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn4") (unit 1)
         )
@@ -3767,7 +3761,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 157.988 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 161.798 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 161.798 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 161.798 0)
@@ -3776,7 +3770,7 @@
     (pin "1" (uuid 6ee7d834-50de-479a-b0d9-fd2123b196ff))
     (pin "2" (uuid f3578d85-4904-434c-9c71-5e08b685cbb4))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn22") (unit 1)
         )
@@ -3801,7 +3795,7 @@
     )
     (pin "1" (uuid 5fbd6140-7b58-442d-ba3d-2dcbe7f9151a))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR02") (unit 1)
         )
@@ -3818,7 +3812,7 @@
     (property "Value" "Molex_SL_02" (at 45.212 134.874 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 41.91 138.684 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 41.91 138.684 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 41.91 138.684 0)
@@ -3827,7 +3821,7 @@
     (pin "1" (uuid 1426cfa8-ac6f-465f-99fd-d65163efb9ac))
     (pin "2" (uuid 481a6909-2f25-4dec-a2f8-1710f21f037e))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn10") (unit 1)
         )
@@ -3852,7 +3846,7 @@
     )
     (pin "1" (uuid 4febefe4-980e-4477-ad60-4fcc6874cc04))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR01") (unit 1)
         )
@@ -3877,7 +3871,7 @@
     )
     (pin "1" (uuid 76bd849b-0de1-4e2c-80ba-ca10644cd8b8))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR044") (unit 1)
         )
@@ -3894,7 +3888,7 @@
     (property "Value" "10uF" (at 172.974 51.054 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 170.6372 53.594 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 170.6372 53.594 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 169.672 49.784 0)
@@ -3903,7 +3897,7 @@
     (pin "1" (uuid 4c604869-9f13-4f5a-bf21-220300e8cc06))
     (pin "2" (uuid 9771f3f3-6601-4fd9-8d67-e02d7a082534))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "C2") (unit 1)
         )
@@ -3928,7 +3922,7 @@
     )
     (pin "1" (uuid 3fd94bc2-2935-4b46-bbca-9358279cf40b))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR014") (unit 1)
         )
@@ -3945,7 +3939,7 @@
     (property "Value" "Molex_SL_02" (at 45.212 109.982 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 41.91 113.792 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 41.91 113.792 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 41.91 113.792 0)
@@ -3954,7 +3948,7 @@
     (pin "1" (uuid 0a0f96da-6ad4-4888-98b0-d3bb43bc0084))
     (pin "2" (uuid dedde5c7-f073-464c-a2b9-6b9be3891c8e))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn6") (unit 1)
         )
@@ -3979,7 +3973,7 @@
     )
     (pin "1" (uuid 80ef1af8-8f73-4952-9061-87add46ccdc8))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR07") (unit 1)
         )
@@ -3996,7 +3990,7 @@
     (property "Value" "Molex_SL_02" (at 45.212 143.256 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 41.91 147.066 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 41.91 147.066 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 41.91 147.066 0)
@@ -4005,7 +3999,7 @@
     (pin "1" (uuid 30b3f391-68f7-479f-bf72-b264b45c7341))
     (pin "2" (uuid bce34e9e-c554-43f8-abd5-ced882c80dbc))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn11") (unit 1)
         )
@@ -4022,7 +4016,7 @@
     (property "Value" "SHHD003A0A" (at 155.829 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MRDT_Devices:SHHD003A0A-SRZ" (at 155.194 57.658 0)
+    (property "Footprint" "SHHD003A04A41:SHHD003A0A-SRZ" (at 155.194 57.658 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.digikey.com/en/products/detail/abb-power-conversion/SHHD003A0A41-SRZ/3993519" (at 155.194 57.658 0)
@@ -4035,7 +4029,7 @@
     (pin "5" (uuid adb0a592-fcdc-41bd-b8bc-60336aec636d))
     (pin "6" (uuid 6154a6ad-ec24-485f-8e2e-9caa05d10082))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "U2") (unit 1)
         )
@@ -4060,7 +4054,7 @@
     )
     (pin "1" (uuid 037a36c5-126b-4c44-9796-27202dc6c73b))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR09") (unit 1)
         )
@@ -4077,7 +4071,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 178.562 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 182.372 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 182.372 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 182.372 0)
@@ -4086,7 +4080,7 @@
     (pin "1" (uuid c80a8849-987b-4eb0-91fd-d63dcc9bfc4b))
     (pin "2" (uuid 83a32dc7-1d24-4ddc-813f-5dbdb4f42e84))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn24") (unit 1)
         )
@@ -4103,7 +4097,7 @@
     (property "Value" "Molex_SL_02" (at 50.038 190.754 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 46.228 194.564 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 46.228 194.564 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 46.228 194.564 0)
@@ -4112,7 +4106,7 @@
     (pin "1" (uuid 7fe66161-294d-450b-9802-b0ba1ba5a5e2))
     (pin "2" (uuid 1418f2c5-52f2-4d46-be64-89430fcddff9))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn7") (unit 1)
         )
@@ -4129,7 +4123,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 188.214 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 192.024 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 192.024 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 192.024 0)
@@ -4138,7 +4132,7 @@
     (pin "1" (uuid e8bccfe7-9b50-4001-a607-ac10ff434d8e))
     (pin "2" (uuid ef46e594-ba8c-408a-b647-117c6af1e370))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn25") (unit 1)
         )
@@ -4155,7 +4149,7 @@
     (property "Value" "300" (at 187.96 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 183.388 50.8 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 183.388 50.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.166 50.8 0)
@@ -4164,7 +4158,7 @@
     (pin "1" (uuid e2ac5004-0ddd-47fa-849e-808afbce7896))
     (pin "2" (uuid 8cff46b7-efe3-463c-8a81-6a96316dd802))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "R8") (unit 1)
         )
@@ -4172,24 +4166,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 152.527 106.807 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 152.654 106.934 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b03acc78-8f52-4107-a1e0-deef12739197)
-    (property "Reference" "#PWR010" (at 152.527 110.617 0)
+    (property "Reference" "#PWR010" (at 152.654 110.744 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 152.527 102.489 0)
+    (property "Value" "+3.3V" (at 152.654 102.616 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.527 106.807 0)
+    (property "Footprint" "" (at 152.654 106.934 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 152.527 106.807 0)
+    (property "Datasheet" "" (at 152.654 106.934 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 747dec72-82be-4646-9932-5c51f2a8cf1d))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR010") (unit 1)
         )
@@ -4197,24 +4191,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 177.165 139.827 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 177.292 139.954 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b21f785b-c9f5-40f8-b48f-e4e783f3bdba)
-    (property "Reference" "#PWR013" (at 177.165 146.177 0)
+    (property "Reference" "#PWR013" (at 177.292 146.304 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 177.165 144.78 0)
+    (property "Value" "GND" (at 177.292 144.907 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 177.165 139.827 0)
+    (property "Footprint" "" (at 177.292 139.954 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 177.165 139.827 0)
+    (property "Datasheet" "" (at 177.292 139.954 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 024a1faa-4c6e-48aa-b4d5-4e007755aee1))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR013") (unit 1)
         )
@@ -4231,7 +4225,7 @@
     (property "Value" "GREEN" (at 177.4825 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 179.07 59.182 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 179.07 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 59.182 0)
@@ -4240,7 +4234,7 @@
     (pin "1" (uuid bf770287-f7e9-4eaa-adde-103e9130e1d9))
     (pin "2" (uuid 3b5b7e38-d18b-4a97-9e53-768576e178e9))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "D8") (unit 1)
         )
@@ -4265,7 +4259,7 @@
     )
     (pin "1" (uuid 670f4ae1-e92b-475d-bd58-6a3aa246aa14))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR08") (unit 1)
         )
@@ -4290,7 +4284,7 @@
     )
     (pin "1" (uuid 8dafc365-e6b1-4f3b-a6e4-97ac2762d1c7))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR047") (unit 1)
         )
@@ -4307,7 +4301,7 @@
     (property "Value" "10uF" (at 133.35 51.562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 131.0132 54.102 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 131.0132 54.102 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.048 50.292 0)
@@ -4316,7 +4310,7 @@
     (pin "1" (uuid 49fe05a9-01ca-421c-a5ff-1920c99f71a7))
     (pin "2" (uuid 00c4d66f-5316-4488-bafe-07fb5c20ee33))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "C1") (unit 1)
         )
@@ -4333,7 +4327,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 147.574 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 151.384 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 151.384 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 151.384 0)
@@ -4342,7 +4336,7 @@
     (pin "1" (uuid 46ab3f83-f29c-4c35-a77d-89672180c8dd))
     (pin "2" (uuid 67f53761-b5bc-4b78-8116-4a49490512cd))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn21") (unit 1)
         )
@@ -4367,7 +4361,7 @@
     )
     (pin "1" (uuid e513521e-e488-4516-959b-6736a5f88c9b))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR048") (unit 1)
         )
@@ -4384,7 +4378,7 @@
     (property "Value" "Molex_SL_02" (at 45.212 151.13 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 41.91 154.94 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 41.91 154.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 41.91 154.94 0)
@@ -4393,7 +4387,7 @@
     (pin "1" (uuid 78518c4e-9a47-4752-bcf7-8d9da1169ca7))
     (pin "2" (uuid 378de06e-255c-46ad-8d4b-b74e06586a97))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn12") (unit 1)
         )
@@ -4410,7 +4404,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 117.602 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 121.412 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 121.412 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 121.412 0)
@@ -4419,7 +4413,7 @@
     (pin "1" (uuid b42fbee9-0f2a-4075-b27f-b9eee05c4844))
     (pin "2" (uuid 9ebe315c-3154-43ba-944d-d87b3a9688ac))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn18") (unit 1)
         )
@@ -4427,26 +4421,26 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Connectors:Molex_SL_03") (at 144.399 107.95 180) (unit 1)
+  (symbol (lib_id "MRDT_Connectors:Molex_SL_03") (at 144.526 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d83d61a5-51a9-4871-ab0a-5806069a9e9c)
-    (property "Reference" "Conn26" (at 140.589 113.03 0)
+    (property "Reference" "Conn26" (at 140.716 113.03 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "Molex_SL_03" (at 140.589 110.49 0)
+    (property "Value" "Molex_SL_03" (at 140.716 110.49 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 144.399 107.95 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal" (at 144.526 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 144.399 107.95 0)
+    (property "Datasheet" "" (at 144.526 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid 2f08b155-bab1-460d-a7fc-0159a087854f))
     (pin "2" (uuid 7910e4cc-79cc-4f60-aa8f-5818aca23bd5))
     (pin "3" (uuid f5d2eaf9-a351-4b28-803c-22469adb76a6))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn26") (unit 1)
         )
@@ -4463,7 +4457,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 137.668 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 141.478 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 141.478 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 141.478 0)
@@ -4472,7 +4466,7 @@
     (pin "1" (uuid 0b297f1f-0ed6-4f5b-83a4-1ca0607f6955))
     (pin "2" (uuid a33a50fa-d180-4abb-aeeb-f94f48c2cb17))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn20") (unit 1)
         )
@@ -4489,7 +4483,7 @@
     (property "Value" "MCP3008" (at 183.2961 107.442 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 178.562 116.84 0)
+    (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 178.562 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" (at 178.562 116.84 0)
@@ -4512,7 +4506,7 @@
     (pin "8" (uuid 2a429ab1-7897-43b7-a0dd-65963a13e3ad))
     (pin "9" (uuid 0fecde2b-f95d-46f5-9637-ff97de328680))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "U3") (unit 1)
         )
@@ -4529,7 +4523,7 @@
     (property "Value" "Molex_SL_02" (at 45.212 126.746 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 41.91 130.556 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 41.91 130.556 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 41.91 130.556 0)
@@ -4538,7 +4532,7 @@
     (pin "1" (uuid 414801ad-e30f-441b-a439-7841ca552947))
     (pin "2" (uuid be191f6d-dfdb-446c-84c1-3eb92d4b0700))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn9") (unit 1)
         )
@@ -4546,24 +4540,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 152.4 115.951 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 152.4 116.078 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2a1b634-b1bc-4a76-b231-a1ae17d34196)
-    (property "Reference" "#PWR011" (at 152.4 122.301 0)
+    (property "Reference" "#PWR011" (at 152.4 122.428 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 152.4 120.523 0)
+    (property "Value" "GND" (at 152.4 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 115.951 0)
+    (property "Footprint" "" (at 152.4 116.078 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 152.4 115.951 0)
+    (property "Datasheet" "" (at 152.4 116.078 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e04ba64-b506-4325-941d-b59770f993f9))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "#PWR011") (unit 1)
         )
@@ -4580,7 +4574,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 107.188 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 110.998 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 110.998 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 110.998 0)
@@ -4589,7 +4583,7 @@
     (pin "1" (uuid a676ff26-8933-445c-83ae-1f31577772af))
     (pin "2" (uuid 2fc6eb7a-fad0-4d55-bdeb-ad26abb6dcd7))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn13") (unit 1)
         )
@@ -4606,7 +4600,7 @@
     (property "Value" "Molex_SL_02" (at 106.426 127.254 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 102.108 131.064 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 102.108 131.064 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 102.108 131.064 0)
@@ -4615,7 +4609,7 @@
     (pin "1" (uuid c3b068fb-ba52-44a6-b029-764047f52f55))
     (pin "2" (uuid d04da5b3-3aab-4de9-9bcc-12bb0b25b5f2))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn19") (unit 1)
         )
@@ -4632,7 +4626,7 @@
     (property "Value" "Molex_SL_02" (at 45.212 102.362 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (at 41.91 106.172 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 41.91 106.172 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 41.91 106.172 0)
@@ -4641,7 +4635,7 @@
     (pin "1" (uuid c149d243-f859-482a-8b5e-31f31c06a1b0))
     (pin "2" (uuid baedc27d-2871-4dd0-a83d-6bc593e5c2a4))
     (instances
-      (project "EquipmentServicingPanel_Hardware_2023_Rev1"
+      (project "Hardware_2024"
         (path "/925b1423-756e-4600-b210-badb8d52bba3"
           (reference "Conn5") (unit 1)
         )
